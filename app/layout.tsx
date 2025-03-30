@@ -27,6 +27,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="sticky top-0 bg-white/80 backdrop-blur-md p-3 px-5 font-bold text-xl">
+          LYCA Photo
+        </header>
         {children}
       </body>
     </html>
